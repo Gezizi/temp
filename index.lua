@@ -65,7 +65,7 @@ end
 
 --启动核电仓
 local function start()
-    redstone.setOutput(reactorChamberSide, 14)
+    redstone.setOutput(reactorChamberSide, 1)
 end
 
 -- 向核电仓中转移原材料
